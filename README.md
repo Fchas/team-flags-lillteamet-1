@@ -47,13 +47,13 @@ npm run dev
 
 ```bash
 # 1. Build the Docker image
-docker build -t team-flags:v1 .
+docker build -t team-flags-lillteamet-1:v1 .
 
 # 2. Run the container
 docker run -p 3000:3000 \
   -e MONGODB_URI="your-connection-string" \
   -e MONGODB_DB="team-flags-edu" \
-  team-flags:v1
+  team-flags-lillteamet-1:v1
 
 # 3. Open http://localhost:3000
 ```
@@ -98,11 +98,11 @@ This Dockerfile showcases production-ready patterns:
 ## 📖 Learning Path
 
 ### Week 2: Container Basics
-- [ ] Fork this repository
-- [ ] Run locally without Docker
-- [ ] Write your first Dockerfile (use ours as reference)
-- [ ] Build and run a Docker container
-- [ ] Understand multi-stage builds
+- [X] Fork this repository
+- [X] Run locally without Docker
+- [X] Write your first Dockerfile (use ours as reference)
+- [X] Build and run a Docker container
+- [X] Understand multi-stage builds
 
 ### Week 3-4: CI/CD Pipeline
 - [ ] Set up GitHub Actions
